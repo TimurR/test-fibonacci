@@ -1,0 +1,19 @@
+.header {
+  @apply min-h-20 flex items-center bg-fibonacci-blue;
+}
+
+.fbcontainer {
+  @apply container grow flex flex-col mx-auto border rounded overflow-auto border-slate-200 m-2;
+}
+
+.fbbutton {
+  @apply bg-fibonacci-blue rounded pl-4 pr-4 pt-1 pb-1 ml-2 text-sm text-white hover:bg-slate-400 hover:text-slate-900 disabled:bg-slate-300 disabled:hover:text-white;
+}
+
+.fbbuttonslate {
+  @apply rounded pl-4 pr-4 pt-1 pb-1 ml-2 text-sm bg-slate-300 text-slate-900 hover:bg-slate-300 border border-fibonacci-blue;
+}
+
+.fbpannel {
+  @apply flex items-center justify-between container mx-auto m-2;
+}
